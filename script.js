@@ -19,7 +19,7 @@ body.addEventListener("mousemove", function (e) {
     cursor.style.top = `${e.y + 10}px`;
 });
 
-card.addEventListener("mouseenter", function (e) {
+card.addEventListener("mouseover", function (e) {
     cursor.style.scale = 3;
 });
 card.addEventListener("mouseleave", function (e) {
